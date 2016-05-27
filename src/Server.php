@@ -21,7 +21,7 @@ class Server extends BaseServer
      * @var string
      */
     protected $applicationKey;
-    
+
     /**
      * Set the access token.
      *
@@ -37,7 +37,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function urlTemporaryCredentials()
     {
@@ -45,7 +45,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function urlAuthorization()
     {
@@ -54,7 +54,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function urlTokenCredentials()
     {
@@ -62,7 +62,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function urlUserDetails()
     {
@@ -70,7 +70,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function userDetails($data, TokenCredentials $tokenCredentials)
     {
@@ -86,7 +86,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function userUid($data, TokenCredentials $tokenCredentials)
     {
@@ -94,7 +94,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function userEmail($data, TokenCredentials $tokenCredentials)
     {
@@ -102,7 +102,7 @@ class Server extends BaseServer
     }
 
     /**
-     * {@inheritDoc}
+     * {@inheritdoc}
      */
     public function userScreenName($data, TokenCredentials $tokenCredentials)
     {
